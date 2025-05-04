@@ -69,4 +69,27 @@ main img{
     transition: all 0.6s;
 }
 
+@media screen and (max-width: 1200px) {
+main{
+    width: 600px;
+}
 
+}
+
+@media screen and (max-width: 900px) {
+main{
+    width: 500px;
+}
+
+}
+
+@media screen and (max-width: 500px) {
+main{
+    width: 350px;
+}
+
+.container{
+    width: 300px;
+}
+
+}
